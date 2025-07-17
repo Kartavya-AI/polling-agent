@@ -88,6 +88,7 @@ poll_creation_task:
     current_year: {current_year}
     ###
     Create a social media poll based on the structured content, formatted for both Twitter and LinkedIn.
+    on thing for twitter poll each option in a poll should be of maximum 24 characters only.
     Ensure the poll question is clear, concise, and relevant to the audience.
   expected_output: |
     {

@@ -1,0 +1,22 @@
+{
+  "Twitter_Poll": {
+    "tweet_text": "Which LLM is your go-to in 2025? Cast your vote! 👇 We're curious about the top proprietary vs. open-source models driving your projects. #LLMs #AI #TechTrends #2025",
+    "poll_question": "Your go-to LLM for 2025?",
+    "poll_options": [
+      "OpenAI (GPT-4o)",
+      "Claude Opus 4",
+      "Google (Gemini)",
+      "Meta Llama"
+    ]
+  },
+  "LinkedIn_Poll": {
+    "post_text": "The AI landscape isn't just shifting – it's exploding! 🚀 In 2025, a new generation of Large Language Models is redefining what's possible. But which LLM truly reigns supreme in your workflow? We're curious to know which Large Language Model you're leveraging most for your projects, personal or professional, as of 2025. Cast your vote in our poll below and share your 'why' in the comments! #LLMs #AI #ArtificialIntelligence #TechTrends #2025 #GenerativeAI",
+    "poll_question": "As of 2025, which LLM are you finding yourself using the MOST for your personal or professional projects?",
+    "poll_options": [
+      "OpenAI (GPT-4o, etc.)",
+      "Claude Opus 4 (Anthropic)",
+      "Google (Gemini / Gemma)",
+      "Meta Llama (Llama 3, etc.)"
+    ]
+  }
+}

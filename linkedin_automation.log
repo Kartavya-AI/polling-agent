@@ -1,0 +1,39 @@
+2025-07-17 16:48:03,675 - __main__ - WARNING - Templates file content_templates.json not found. Using defaults.
+2025-07-17 16:48:03,675 - __main__ - INFO - Storage file scheduled_posts.json not found. Starting fresh.
+2025-07-17 16:48:04,685 - __main__ - ERROR - Error fetching profile: 403 Client Error: Forbidden for url: https://api.linkedin.com/v2/me
+2025-07-17 16:48:04,685 - __main__ - ERROR - Error creating post: 403 Client Error: Forbidden for url: https://api.linkedin.com/v2/me
+2025-07-17 16:48:04,686 - __main__ - ERROR - Failed to create immediate post: 403 Client Error: Forbidden for url: https://api.linkedin.com/v2/me
+2025-07-17 16:48:04,687 - __main__ - INFO - Post scheduled for 2025-07-17 17:48:04.686631
+2025-07-17 16:48:04,688 - __main__ - INFO - Scheduled 1/30 posts
+2025-07-17 16:48:04,689 - __main__ - INFO - Post scheduled for 2025-07-18 17:48:04.686631
+2025-07-17 16:48:04,691 - __main__ - INFO - Post scheduled for 2025-07-19 17:48:04.686631
+2025-07-17 16:48:04,693 - __main__ - INFO - Post scheduled for 2025-07-20 17:48:04.686631
+2025-07-17 16:48:04,694 - __main__ - INFO - Post scheduled for 2025-07-21 17:48:04.686631
+2025-07-17 16:48:04,696 - __main__ - INFO - Post scheduled for 2025-07-22 17:48:04.686631
+2025-07-17 16:48:04,698 - __main__ - INFO - Post scheduled for 2025-07-23 17:48:04.686631
+2025-07-17 16:48:04,699 - __main__ - INFO - Post scheduled for 2025-07-24 17:48:04.686631
+2025-07-17 16:48:04,701 - __main__ - INFO - Post scheduled for 2025-07-25 17:48:04.686631
+2025-07-17 16:48:04,703 - __main__ - INFO - Post scheduled for 2025-07-26 17:48:04.686631
+2025-07-17 16:48:04,705 - __main__ - INFO - Post scheduled for 2025-07-27 17:48:04.686631
+2025-07-17 16:48:04,705 - __main__ - INFO - Scheduled 11/30 posts
+2025-07-17 16:48:04,707 - __main__ - INFO - Post scheduled for 2025-07-28 17:48:04.686631
+2025-07-17 16:48:04,709 - __main__ - INFO - Post scheduled for 2025-07-29 17:48:04.686631
+2025-07-17 16:48:04,711 - __main__ - INFO - Post scheduled for 2025-07-30 17:48:04.686631
+2025-07-17 16:48:04,714 - __main__ - INFO - Post scheduled for 2025-07-31 17:48:04.686631
+2025-07-17 16:48:04,716 - __main__ - INFO - Post scheduled for 2025-08-01 17:48:04.686631
+2025-07-17 16:48:04,718 - __main__ - INFO - Post scheduled for 2025-08-02 17:48:04.686631
+2025-07-17 16:48:04,721 - __main__ - INFO - Post scheduled for 2025-08-03 17:48:04.686631
+2025-07-17 16:48:04,724 - __main__ - INFO - Post scheduled for 2025-08-04 17:48:04.686631
+2025-07-17 16:48:04,727 - __main__ - INFO - Post scheduled for 2025-08-05 17:48:04.686631
+2025-07-17 16:48:04,730 - __main__ - INFO - Post scheduled for 2025-08-06 17:48:04.686631
+2025-07-17 16:48:04,730 - __main__ - INFO - Scheduled 21/30 posts
+2025-07-17 16:48:04,733 - __main__ - INFO - Post scheduled for 2025-08-07 17:48:04.686631
+2025-07-17 16:48:04,737 - __main__ - INFO - Post scheduled for 2025-08-08 17:48:04.686631
+2025-07-17 16:48:04,740 - __main__ - INFO - Post scheduled for 2025-08-09 17:48:04.686631
+2025-07-17 16:48:04,743 - __main__ - INFO - Post scheduled for 2025-08-10 17:48:04.686631
+2025-07-17 16:48:04,747 - __main__ - INFO - Post scheduled for 2025-08-11 17:48:04.686631
+2025-07-17 16:48:04,751 - __main__ - INFO - Post scheduled for 2025-08-12 17:48:04.686631
+2025-07-17 16:48:04,755 - __main__ - INFO - Post scheduled for 2025-08-13 17:48:04.686631
+2025-07-17 16:48:04,758 - __main__ - INFO - Post scheduled for 2025-08-14 17:48:04.686631
+2025-07-17 16:48:04,762 - __main__ - INFO - Post scheduled for 2025-08-15 17:48:04.686631
+2025-07-17 16:48:04,763 - __main__ - INFO - Automation stats: {'total_posts': 1, 'successful_posts': 0, 'failed_posts': 1, 'start_date': '2025-07-17T16:48:03.675684', 'scheduled_posts': 30, 'published_posts': 0}

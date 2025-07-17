@@ -4,9 +4,10 @@ from dotenv import load_dotenv
 
 load_dotenv()
 
-def post_linkedin(post_text: str):
-    access_token = os.getenv("LINKEDIN_ACCESS_TOKEN")
-    person_urn = os.getenv("LINKEDIN_PERSON_URN")
+def post_linkedin(post_text: str, access_token=None, person_urn=None):
+    access_token = access_token or os.getenv("LINKEDIN_ACCESS_TOKEN")
+    person_urn = person_urn or os.getenv("LINKEDIN_PERSON_URN")
+
 
     url = "https://api.linkedin.com/v2/ugcPosts"
     headers = {
@@ -34,9 +35,9 @@ def post_linkedin(post_text: str):
     print("Response body:", resp.text)
     return resp.status_code == 201
 
-def post_linkedin_poll(post_text: str, poll_question: str, poll_options: list[str], poll_duration_days: int = 7):
-    access_token = os.getenv("LINKEDIN_ACCESS_TOKEN")
-    person_urn = os.getenv("LINKEDIN_PERSON_URN")
+def post_linkedin_poll(post_text: str, poll_question: str, poll_options: list[str], poll_duration_days: int = 7, access_token=None, person_urn=None):
+    access_token = access_token or os.getenv("LINKEDIN_ACCESS_TOKEN")
+    person_urn = person_urn or os.getenv("LINKEDIN_PERSON_URN")
 
     url = "https://api.linkedin.com/v2/ugcPosts"
     headers = {
