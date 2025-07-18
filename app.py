@@ -138,12 +138,6 @@ with st.sidebar:
     with st.expander("🐦 Twitter API Configuration"):
         st.markdown("Configure Twitter API for posting tweets and polls")
         
-        twitter_bearer_token = st.text_input(
-            "Bearer Token", 
-            type="password",
-            value=st.session_state.get("TWITTER_BEARER_TOKEN", ""),
-            help="🔐 Twitter API Bearer Token"
-        )
         
         col1, col2 = st.columns(2)
         with col1:
@@ -203,7 +197,6 @@ with st.sidebar:
             "GEMINI_API_KEY": gemini_api_key,
             "SERPER_API_KEY": serper_api_key,
             "MODEL": model_choice,
-            "TWITTER_BEARER_TOKEN": twitter_bearer_token,
             "TWITTER_CONSUMER_KEY": twitter_consumer_key,
             "TWITTER_CONSUMER_SECRET": twitter_consumer_secret,
             "TWITTER_ACCESS_TOKEN": twitter_access_token,
@@ -231,8 +224,8 @@ with st.sidebar:
     apis_configured = []
     if gemini_api_key: apis_configured.append("Gemini")
     if serper_api_key: apis_configured.append("Serper")
-    if twitter_bearer_token: apis_configured.append("Twitter")
-    if linkedin_access_token: apis_configured.append("LinkedIn")
+    if twitter_access_token and twitter_access_token_secret and twitter_consumer_key and twitter_consumer_secret: apis_configured.append("Twitter")
+    if linkedin_access_token and linkedin_person_urn: apis_configured.append("LinkedIn")
     
     if apis_configured:
         st.success(f"✅ Configured: {', '.join(apis_configured)}")
