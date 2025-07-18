@@ -325,13 +325,47 @@ def load_json_safe(filepath):
             return json.load(f)
     return {}
 
+import streamlit as st
+
 def display_content_card(title, content, icon="📝"):
+    st.markdown(f"""
+    <style>
+        .content-card {{
+            background-color: #333;
+            color: white;
+            border-radius: 8px;
+            padding: 20px;
+            margin-bottom: 20px;
+        }}
+        .content-card h3 {{
+            font-size: 1.5rem;
+            color: white;
+            display: flex;
+            align-items: center;
+        }}
+        .content-card h3 svg {{
+            margin-right: 10px;
+        }}
+        .content-card pre {{
+            background-color: #444;
+            padding: 15px;
+            border-radius: 6px;
+            color: #ddd;
+            font-size: 1rem;
+            overflow-x: auto;
+        }}
+    </style>
+    """, unsafe_allow_html=True)
+
     st.markdown(f"""
     <div class="content-card">
         <h3>{icon} {title}</h3>
+        <div>
+            <pre>{content}</pre>
+        </div>
     </div>
     """, unsafe_allow_html=True)
-    st.code(content, language="markdown")
+
 
 def display_poll_card(title, poll_data, icon="📊"):
     st.markdown(f"""
