@@ -1,0 +1,4 @@
+crewai[tools]
+flask
+gunicorn
+pydantic

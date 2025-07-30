@@ -622,3 +622,10 @@ Ready to revolutionize your social media content creation?
 ---
 
 _Built with ❤️ for the AI community. Empowering creators worldwide._
+
+### GCP
+
+```bash
+TOKEN=$(gcloud auth print-identity-token)
+ curl -H "Authorization: Bearer $TOKEN"      -H "Content-Type: application/json"     -d '{"topic": "AI LLMs"}' https://polling-agent-api-977121587860.asia-south1.run.app/polling-agent
+```
